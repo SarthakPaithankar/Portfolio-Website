@@ -1,0 +1,13 @@
+@font-face{
+    font-family: Terminal;
+    src: url("./assets/fonts/VT323/VT323-Regular.ttf")
+}
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme{
+    --font-Terminal: Terminal, "sans-serif";
+}
+
