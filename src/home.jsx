@@ -5,6 +5,9 @@ import Dfs from './assets/dfs.png'
 import Active from './assets/active.png'
 import Wrapped from './assets/Wrapped.png'
 import Photo from './assets/photo.png'
+import Website from './assets/Personal-website.webp'
+import Website1 from './assets/p_web.webp'
+import Future from './assets/future.webp'
 
 import { TypeAnimation } from 'react-type-animation';
 const Home = () => {
@@ -54,12 +57,24 @@ const Home = () => {
                                 <img src={Wrapped} alt="Headshot" className="w-3/4 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" />
                             </a>    
                         </div>
-                        <div><img src={Dfs} alt="Headshot" className="w-3/4 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" /></div>
+                        <div>
+                            <a href="https://github.com/SarthakPaithankar/Distributed-File-System" >
+                                <img src={Dfs} alt="Headshot" className="w-3/4 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" />
+                            </a>
+                        </div>
                         <div><img src={Udp} alt="Headshot" className="w-3/4 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" /></div>
+                        <div>
+                            <a href='https://github.com/SarthakPaithankar/Portfolio-Website'>
+                                <img src={Website1} alt="Headshot" className="w-3/4 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" />
+                            </a>
+                        </div>
                         <div>
                             <a href='./photography'>
                                 <img src={Photo} alt="Headshot" className="w-3/4 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" />
                             </a>
+                        </div>
+                        <div>
+                            <img src={Future} alt="Headshot" className="w-3/4 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" />
                         </div>
                     </div>
                 </div>

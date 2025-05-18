@@ -17,13 +17,13 @@ const Navbar = () => {
         <div className="ml-auto">
           <ul className="flex space-x-8 text-3xl font-semibold">
             <li>
-              <a href="/About" className="text-green-600 hover:text-blue-400">About</a>
+              <a href="./resume" className="text-green-600 hover:text-blue-400">Experience</a>
             </li>
             <li>
-              <a href="/Projects" className="text-green-600 hover:text-blue-400">Projects</a>
+              <a href="/photography" className="text-green-600 hover:text-blue-400">Photography</a>
             </li>
             <li>
-              <a href="/Contact" className="text-green-600 hover:text-blue-400">Contact</a>
+              <a href="/contact" className="text-green-600 hover:text-blue-400">Contact</a>
             </li>
           </ul>
         </div>
