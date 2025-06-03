@@ -12,7 +12,7 @@ import Future from './assets/future.webp'
 import { TypeAnimation } from 'react-type-animation';
 const Home = () => {
     return(
-        <div className="grid grid-cols-2 min-h-screen w-full bg-black font-Terminal bg-[url(./assets/background2.png)] bg-no-repeat">
+        <div className="flex flex-col md:grid md:grid-cols-2 min-h-screen w-full bg-black font-Terminal bg-[url(./assets/background2.png)] bg-no-repeat bg-cover">
             <div className="flex justify-center items-end p-10 h-full">
                 <div className="w-full h-full flex justify-center items-center">
                     <img src={headshot} alt="Headshot" className="max-h-[90%] w-3/4 object-contain rounded-xl"/>
@@ -44,7 +44,7 @@ const Home = () => {
                             <br /> Check out some of my Projects!
                         </p>
                     </p>
-                    <div className="grid grid-cols-4 p-3 mt-15">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 w-full">
                         <div>
                             <a href="https://activeu.onrender.com/" >
                                 <img src={Active} alt="Headshot" className="w-5/6 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" />
@@ -72,7 +72,7 @@ const Home = () => {
                             </a>
                         </div>
                         <div>
-                            <a href='./photography'>
+                            <a href="./photography">
                                 <img src={Photo} alt="Headshot" className="w-3/4 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" />
                             </a>
                         </div>
