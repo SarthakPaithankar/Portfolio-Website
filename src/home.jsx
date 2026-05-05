@@ -8,6 +8,8 @@ import Photo from './assets/photo.png'
 import Website from './assets/Personal-website.webp'
 import Website1 from './assets/p_web.webp'
 import Future from './assets/future.webp'
+import v6Network from './assets/v6_v4_Network.png'
+import { Link } from "react-router-dom";
 
 import { TypeAnimation } from 'react-type-animation';
 const Home = () => {
@@ -45,6 +47,16 @@ const Home = () => {
                         </p>
                     </p>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 w-full">
+                        {/* <div>
+                            <a href="https://activeu.onrender.com/" >
+                                <img src={Active} alt="Headshot" className="w-5/6 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" />
+                            </a>
+                        </div> */}
+                        <div>
+                            <a href="" >
+                                <img src={v6Network} alt="Headshot" className="w-5/6 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" />
+                            </a>
+                        </div>
                         <div>
                             <a href="https://activeu.onrender.com/" >
                                 <img src={Active} alt="Headshot" className="w-5/6 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" />
@@ -72,9 +84,9 @@ const Home = () => {
                             </a>
                         </div>
                         <div>
-                            <a href="./photography">
+                            <Link to="/photography">
                                 <img src={Photo} alt="Headshot" className="w-3/4 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" />
-                            </a>
+                            </Link>
                         </div>
                         <div>
                             <img src={Future} alt="Headshot" className="w-3/4 h-auto object-contain rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" />
